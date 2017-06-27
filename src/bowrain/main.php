@@ -17,3 +17,4 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
  $sender->setHealth(20);
  break;
  }
+}
