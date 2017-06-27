@@ -15,6 +15,5 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
  switch($cmd->getName()){
  case 'heal':
  $sender->setHealth(20);
- break;
  }
 }
