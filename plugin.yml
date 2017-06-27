@@ -6,5 +6,5 @@ author: newpluginer
 commands:
 heal:
 description: heal yourself
-
-
+use: "/heal"
+default: op
