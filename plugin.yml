@@ -3,5 +3,8 @@ main: bowrain\main
 api: 3.0.0-ALPHA3
 version: 1.0.0
 author: newpluginer
+commands:
+heal:
+description: heal yourself
 
 
