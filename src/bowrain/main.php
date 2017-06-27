@@ -11,7 +11,7 @@ public function onEnable(){
 public function onDisable(){
  $this->getServer()->getLogger()->info("plugin off");
  }
-public function onCommand(CommandSender $sender, Command $cmd, $label array $args){
+public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
  switch($cmd->getName())}
  case 'heal':
  $sender->setHealth(20);
